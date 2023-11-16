@@ -1,0 +1,686 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url(./Images/texture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+.container-fluid img{
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+}
+.nav-link{
+  font-size: 1.1em;
+  letter-spacing: 1px;
+}
+
+.navbar{
+  position: sticky;
+  top: 0px;
+}
+
+.page-1{
+
+  height: 100vh;
+  overflow: hidden;
+ 
+  
+
+
+}
+
+
+
+
+.btn{
+  background-color: #ffffffb3;
+  padding: 0.5%;
+  width: 8em;
+  text-decoration: none;
+  transition: 1s ease;
+}
+.btn a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.709);
+}
+.btn:hover{
+  letter-spacing: 2px;
+}
+
+.fr-text{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  font-weight: 900;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.fr-text svg:hover{
+  background-color: #4F2C56;
+  border-radius: 50%;
+}
+.fr-text svg{
+  bottom: 15px;
+  position: absolute;
+  transition: 1s ease;
+  border-radius: 50%;
+}
+
+
+
+
+/*page 1 endss -------------------------------------------------------------------------*/
+
+
+.page-2{
+  background-color: rgba(0, 0, 0, 0.364);
+  padding: 4% 0 ;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+}
+
+.txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -300px;
+}
+
+.text-car{
+  background-color: #ffffff81;
+  padding: 7% 5%; 
+  color: #000000;
+  
+}
+
+.text-car p{
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+ 
+/*page 3 start here          */
+
+
+/*font-family: 'Philosopher', sans-serif;  
+
+font-family: 'Open Sans', sans-serif;*/
+
+
+.page-3{
+ 
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column; 
+  min-height: 110vh; 
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 4% 0;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.422);
+}
+.page-3 h1{ 
+  font-family: 'Philosopher', sans-serif; 
+  color: rgba(0, 0, 0, 0.839);
+}
+.page-3 h3{
+  font-family: 'Open Sans', sans-serif; 
+  color: #ccc;
+  font-size: 18px; 
+}  
+.page-3-sub{
+  display: flex;
+  gap: 3%;
+  margin-top: 4%;
+}
+
+.room-img{
+  height: 600px;
+  
+}
+
+
+.room-container{
+  position: relative;
+  margin-bottom: 4%;
+  overflow: hidden;
+
+}
+
+.room-container h3{
+  position: absolute;
+  bottom: 39px;
+  padding-left: 3%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.room-container h2{
+
+  position: absolute;
+  bottom: 0px; 
+  padding-left: 3%;
+  font-family: 'Philosopher', sans-serif;
+
+}
+
+
+.room-container img{
+  transition: 1s ease;
+}
+
+.room-container:hover img{
+  transform: scale(1.1);
+  opacity: 0.6;
+ 
+}
+
+
+/*-----------page 4 -----------------------------------------------------------------*/
+
+.page-4{
+
+  min-height: 100vh;
+  background-image: url(./Images/pexels-pixabay-66284.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 0;
+  overflow: hidden;
+}       
+
+
+.text-fec h4{
+  font-family: 'Open Sans', sans-serif;
+  color: #0f0f0fa8;
+  letter-spacing: 1.5px;
+ 
+}
+.span-container{
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(200px);
+  backdrop-filter: blur(200px);
+
+}
+
+.text-fec h1{
+  font-family: 'Philosopher', sans-serif;  
+  color: #fff;
+  font-size: 3em;
+}
+
+
+
+.sp-icon {
+  font-size: 3.5em; 
+  color: rgb(170, 170, 170);
+  border-radius: 50%;
+  transition: 0.4s ease;
+  padding: 20px;
+  background-color: #000000;
+}
+.sp-icon:hover{
+  border: 0.5px solid rgb(123, 127, 123);
+  background-color: transparent;
+  cursor: grab;
+}
+
+ .facilities{
+  padding-top: 24px;
+  color: #fff;
+ }
+
+ .facilities h2{
+  font-family: 'Philosopher', sans-serif;
+  size: 1.5em;
+  margin-top: 3%;
+  color: #000000b9;
+ }
+
+  .facilities p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em; 
+    color: #000000ac;
+  }
+
+
+  /*---page 5 start------------------------------------------------------------------*/
+
+
+
+  .page-5{
+    min-height: 115vh; 
+    padding: 5% 0;
+    overflow: hidden;
+    background-image: url(./Images/pexels-codioful-\(formerly-gradienta\)-7130536.jpg);
+    background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+  }
+
+.txt-relax{
+  max-width: 90vh;
+}
+
+.relax-h2{
+  display: flex;
+  gap: 3%;
+  align-items: center;
+}
+
+
+.n{
+  display: flex;
+  justify-content: space-between;
+}
+
+.border-relax
+{
+  width: 100%;
+}
+
+
+
+
+.featured, .popular{
+  display: none;
+}  
+
+  
+
+.position{
+  transition: 2s ease;
+}
+
+.btn-card{
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 3% 6%; 
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  transition: 0.6s ease;
+}
+.btn-card:hover{
+  background-color: rgba(0, 0, 0, 0.99);
+  color: #fff;
+  border: none;  
+  letter-spacing: 2px; 
+}
+
+#popular, #featured, #latest{
+  cursor: pointer;
+  padding: 1.5% 4%;
+  border-radius: 45px;
+  color: black;
+  transition: 0.5s ease;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;  
+  letter-spacing: 1px;
+  
+}
+#latest{
+  background-color: black;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;  
+  color: #ccc;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+
+/*page 6 start here-------------------------------------------------------------------------------------------------*/
+
+.btn-rlx{
+  background-color: transparent;
+  color: #000000;
+  border: 0.5px solid black;
+  outline: none;
+  padding: 1% 6%;
+  letter-spacing: 1px;
+  transition: 0.6s ease-in;
+} 
+.btn-rlx a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn-rlx:hover{
+  background-color: #000000;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.btn-rlx:hover a{
+  color: #fff;
+}
+
+.dine-text h1{
+  font-family: 'Philosopher', sans-serif;  
+}
+.dine-text p{
+  font-family: 'Open Sans', sans-serif;  
+  
+}
+
+.page-6{
+  max-height: auto;
+  background-color: #fff;
+  padding: 4% 0;
+  overflow: hidden;
+}
+
+.service-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-dine{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #fff;
+ min-height: auto;
+  
+}
+
+.bar{
+  
+  background-image:url(./Images/pexels-cottonbro-studio-6474940.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 17% 10%;
+  margin-top: 5%;
+  overflow: hidden;
+
+}
+
+.dine-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.page-6-sub{
+  min-height: auto; 
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+
+
+
+
+
+
+.roof-top{
+  background-image: url(./Images/pexels-asad-photo-maldives-3155726.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 17% 10%;
+}
+
+
+.roof-top-2{
+  background-image: url(./Images/pexels-jonathan-borba-3316925.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 17% 10%;
+}
+
+
+
+/*--page ---6 end-------------------------------------*/
+
+.page-7{
+ min-height: auto;
+ display: flex;
+ flex-direction: column;
+ padding: 5% 2%;
+ overflow: hidden;
+ background-color: #77ffff00;
+ background-image: linear-gradient(0deg, #f7e33072 0%, #fffff3 100%);
+
+
+}
+
+.text-container-login h4{
+  font-family: 'Open Sans', sans-serif; 
+
+}
+.text-container-login h1{
+  font-family: 'Philosopher', sans-serif;
+}
+input,select,textarea{
+  border: none;
+  outline: none;
+  padding: 3%;
+  background: rgba(255, 255, 255, 0.354); 
+}
+.btn-login{
+  background: rgba(255, 255, 255, 0.354); 
+  padding: 1% 6%;
+  color: #000000ad;
+  border: none;
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+}
+.btn-login:hover{   
+  background-color: #000000;
+  color: #fff; 
+}  
+.login-container{
+  min-height: 80vh;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+
+}
+  
+.login-form{
+  flex-basis: 65%;
+  padding: 2%;
+}
+.contact-form{
+  flex-basis: 35%; 
+  padding: 3%;  
+  display: flex;
+  flex-direction: column;
+}  
+.input-direction{
+
+  display: flex;
+  flex-direction: column;
+}
+
+#message{
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+
+.contact-container{
+  overflow: hidden;
+  padding: 4% 2%;
+  background: rgba(255, 255, 255, 0.354); 
+}
+
+.mail-box{
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin-top: 3%;
+}
+
+.mail-img{
+  height: 30px;
+  width: 30px;
+}
+.contact-form h3{
+  font-size: 1.3rem;
+  font-family: 'Open Sans', sans-serif; 
+  letter-spacing: 1px;
+}
+.contact-form h4{
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #0000008c;
+  font-weight: 420;
+}
+
+
+
+/*----------------page - 7 ends -----------------------*/
+
+
+.page-8{
+  min-height: 50vh;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-brand{
+
+  border-radius: 50%;
+  width: 100px;
+}
+
+
+
+.footer-content{
+  color: #ccc;
+  font-family: 'Philosopher', sans-serif;
+ 
+}
+
+.footer-content a{
+   text-decoration: none;
+   color: rgb(110, 208, 159);
+}
+
+
+/*-----------------galleryy_-----------------------*/
+
+.page-9{
+  max-height: fit-content;
+  background-color: #ffffff;
+  color: #fff;
+  padding: 3%;
+  overflow: hidden; 
+  font-family: 'Philosopher', sans-serif;
+  color: #000000;
+
+}
+
+   
+
+.nan img{
+  overflow: hidden;
+  height: 100%;
+  
+ 
+   
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  only screen and (min-width:121px) and (max-width:1004px) {
+
+
+
+
+
+
+
+.page-3-sub{
+  display: block;
+}
+
+.page-3{
+  height: fit-content;
+}
+
+.page-5{
+  border-bottom: none;
+}
+.login-container{
+  display: block;
+}
+  
+.txt-relax{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.471);
+}
+.relax-h2{
+  display: block;
+}
+}
+
+
