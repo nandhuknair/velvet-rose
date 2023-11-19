@@ -336,7 +336,7 @@ font-family: 'Open Sans', sans-serif;*/
   text-align: center;
 }
 .btn-card:hover{
-  background-color: rgba(0, 0, 0, 0.98);
+  background-color: rgba(0, 0, 0, 0.98); 
   color: #fff;
   border: none;  
   letter-spacing: 2px; 
