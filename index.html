@@ -290,7 +290,7 @@
 
 <!---------page 5 start here ----------->
 
-<div class="page-5" id="card">
+<div class="page-5" id="card" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
 
 <div class="container text-center txt-relax">
  
@@ -322,12 +322,12 @@
  
  <div class="container mt-5" >
 
-  <div class="position">
+  <div class="position "> 
 
   <div class="row room-slide" id="latestId">
-
-    <div class="col">
-      <div class="card" style="width: 18rem;"> 
+ 
+    <div class="col-lg-3 col-md-6 mt-5 pd-5" >  
+      <div class="card" style="width: auto;"> 
     <img src="./Images/pexels-azri-suratmin-122244.jpg" class="card-img-top" height="250px" alt="..."> 
     <div class="card-body">
       <h5 class="card-title">Top views</h5>
@@ -337,19 +337,19 @@
   </div>
 </div>
 
-<div class="col">
-  <div class="card" style="width: 18rem;">
+<div class="col-lg-3  col-md-6 mt-5 "> 
+  <div class="card" style="width: auto; height: 500px;"> 
   <img src="./Images/pexels-vincent-rivaud-17568098.jpg" class="card-img-top" height="250px" alt="...">   
     <div class="card-body">
       <h5 class="card-title">Zen gardens</h5>
       <p class="card-text">we have minimalist dry landscape comprised of natural elements of rock</p>
       <a href="#gallery" class="btn-card btn-primary">Take a look</a>
     </div>
-  </div>
+  </div> 
   </div>
 
-  <div class="col">
-    <div class="card" style="width: 18rem;">
+  <div class="col-lg-3 col-md-6 mt-5 pd-5">
+    <div class="card" style="width: auto;">
     <img src="./Images/oceanView.jpg" class="card-img-top" height="250px" alt="..."> 
       <div class="card-body">
         <h5 class="card-title">Ocean views</h5>
@@ -360,8 +360,8 @@
 </div>
 
 
-    <div class="col">
-      <div class="card" style="width: 18rem;">
+    <div class="col-lg-3  col-md-6 mt-5 pd-5">
+      <div class="card" style="width: auto;">
       <img src="./Images/pexels-tom-balabaud-1579739.jpg" class="card-img-top" height="250px" alt="..."> 
         <div class="card-body">
           <h5 class="card-title">Dining</h5>
@@ -371,7 +371,7 @@
       </div>
   </div>
 
-      
+       
   
 
  </div>
@@ -386,7 +386,7 @@
  <div class="row featured" id="featuredId">
 
   <div class="col">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: auto;">
   <img src="./Images/Spa.jpg" class="card-img-top" height="250px" alt="..."> 
   <div class="card-body">
     <h5 class="card-title">Spa</h5>
@@ -397,7 +397,7 @@
 </div>
 
 <div class="col">
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: auto;">
   <img src="./Images/luxury.jpg" class="card-img-top" height="250px" alt="..."> 
   <div class="card-body">
     <h5 class="card-title">Luxury</h5>
@@ -408,7 +408,7 @@
 </div>
 
 <div class="col">
-  <div class="card" style="width: 18rem;">
+  <div class="card" style="width: auto;">
     <img src="./Images/pickup.jpg" class="card-img-top" height="250px" alt="..."> 
     <div class="card-body">
       <h5 class="card-title">Pickup</h5>
@@ -420,7 +420,7 @@
 
 
   <div class="col">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: auto;">
       <img src="./Images/24.jpg" class="card-img-top" height="250px" alt="..."> 
       <div class="card-body">
         <h5 class="card-title">24/7 Service</h5>
@@ -445,8 +445,8 @@
   
 <div class="row popular" id="popularId">  
 
-  <div class="col">
-    <div class="card" style="width: 18rem;">
+  <div class="col-12"> 
+    <div class="card" style="width: auto;">
   <img src="./Images/pexels-cottonbro-studio-6474588.jpg" class="card-img-top" height="250px" alt="..."> 
   <div class="card-body">
     <h5 class="card-title">Hospitality</h5>
@@ -457,7 +457,7 @@
 </div>
 
 <div class="col">
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: auto;">
   <img src="./Images/happy .jpg" class="card-img-top" height="250px" alt="...">  
   <div class="card-body">
     <h5 class="card-title">Happy customers</h5>
@@ -468,7 +468,7 @@
 </div>
 
 <div class="col">
-  <div class="card" style="width: 18rem;">
+  <div class="card" style="width: auto;">
     <img src="./Images/bar.jpg" class="card-img-top" height="250px" alt="..."> 
     <div class="card-body">
       <h5 class="card-title">Bar</h5>
@@ -480,7 +480,7 @@
 
 
   <div class="col">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: auto;">
       <img src="./Images/sct.jpg" class="card-img-top" height="250px" alt="..."> 
       <div class="card-body">
         <h5 class="card-title">Activities</h5>
@@ -619,7 +619,7 @@
     <div class="col">
     <div class="input-direction">
       <label for="name">Name</label>
-   <input id="name" type="text" required />
+   <input id="name" type="text" name="Name" required />
 
     </div></div>
 
@@ -627,7 +627,7 @@
 
       <div class="input-direction">
         <label for="email">Email</label>
-     <input id="email" type="email" required />
+     <input id="email" type="email" name ="Email" required />
   </div>
 
     </div>
@@ -639,7 +639,7 @@
   <div class="col">
     <div class="input-direction">
     <label  for="number">Phone Number</label>
- <input id="number" type="number" required />
+ <input id="number" type="number" name="Number" required />
 </div>
   </div>
 
@@ -647,7 +647,7 @@
 
     <div class="input-direction">
       <label for="room">Room</label>
-     <select name="room" id="room">
+     <select name="Room" id="room">
       <option value="deluxeroom">Deluxeroom</option>
       <option value="oceansuit">Ocean Suite</option>
       <option value="premieresuite">Premiere Suite</option>
@@ -665,13 +665,13 @@
   <div class="col-6 ">
     <div class="input-direction">
       <label for="date">Date</label>
-  <input id="date" type="date" required/>
+  <input id="date" type="Date" required/>
  </div></div>
 
 <div class="col-10 mt-5">
   <div class="input-direction">
   <label for="message">Message Us</label>
-<textarea name="text" id="message" rows="3" placeholder="Your Message"></textarea>
+<textarea name="Text" id="message" rows="3" placeholder="Your Message"></textarea>
 </div>
 
 
